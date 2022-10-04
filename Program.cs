@@ -7,6 +7,11 @@ while (contador <=10)
 Console.WriteLine($"{numero} x {contador} = {numero * contador}");
 contador++;
 
+if (contador == 5)
+{
+    break;
+}
+
 }
 //esse é mais simples por que ele recebe apenas a condição, porém precisa ficar esperto pra não cair em loop infinito
 
