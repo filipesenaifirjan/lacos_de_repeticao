@@ -1,6 +1,6 @@
 ﻿string opcao;
-
-while(true)
+bool exibirMenu = true;
+while(exibirMenu) //nesse caso, a variável sendo falsa, ele não executa
 {
     Console.Clear();//ele vai limpar o console
     Console.WriteLine("Digite a sua opção: ");
@@ -24,7 +24,7 @@ Console.WriteLine("Apagar de Cliente");
 break;
 case "4":
 Console.WriteLine("Encerrar");
-Environment.Exit(0);
+exibirMenu = false;
 break;
 default:
 
@@ -33,3 +33,4 @@ break;
 }
 
 }
+Console.WriteLine("O programa se encerrou");
