@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "lacos_de_repeticao/1.0.0": {
+        "runtime": {
+          "lacos_de_repeticao.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lacos_de_repeticao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
